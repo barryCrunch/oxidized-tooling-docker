@@ -7,4 +7,4 @@ RUN mkdir oxidized-tooling
 RUN git clone https://github.com/barryCrunch/oxidized-tooling.git
 RUN pip install pynetbox
 WORKDIR /oxidized-tooling
-COPY entrypoint.sh oxidized-tooling/
+COPY entrypoint.sh .
