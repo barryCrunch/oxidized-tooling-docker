@@ -7,5 +7,4 @@ RUN mkdir oxidized-tooling
 RUN git clone https://github.com/barryCrunch/oxidized-tooling.git
 RUN pip install pynetbox
 WORKDIR /oxidized-tooling
-ENTRYPOINT /bin/sh
-CMD ["python","netboxpull.py"]
+COPY entrypoint.sh oxidized-tooling/
