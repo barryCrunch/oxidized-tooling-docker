@@ -8,3 +8,4 @@ RUN git clone https://github.com/barryCrunch/oxidized-tooling.git
 RUN pip install pynetbox
 WORKDIR /oxidized-tooling
 COPY --chown=root:root entrypoint.sh .
+RUN chmod +x entrypoint.sh
