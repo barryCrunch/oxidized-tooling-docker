@@ -1,2 +1,2 @@
-#!/bin/#!/bin/sh
+#!/bin/sh
 python netboxpull.py
