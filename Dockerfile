@@ -4,7 +4,6 @@ MAINTAINER michael.barry@intlfcstone.com
 
 RUN apk add git
 RUN mkdir oxidized-tooling
-RUN rm entrypoint.sh
 RUN git clone https://github.com/barryCrunch/oxidized-tooling.git
 RUN git clone https://github.com/barryCrunch/oxidized-tooling-docker.git
 RUN pip install pynetbox
