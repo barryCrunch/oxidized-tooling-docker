@@ -1,4 +1,5 @@
 #!/bin/sh
-python netboxpull.py
+pwd
+python /oxidized-tooling/netboxpull.py
 
 /bin/sh
