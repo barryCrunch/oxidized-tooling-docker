@@ -9,4 +9,5 @@ ADD . /oxidized-tmp
 RUN git clone https://github.com/barryCrunch/oxidized-tooling.git
 RUN cp /oxidized-tmp/entrypoint.sh /oxidized-tooling/
 WORKDIR /oxidized-tooling
+
 RUN chmod +x entrypoint.sh
