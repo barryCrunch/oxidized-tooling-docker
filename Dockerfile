@@ -1,6 +1,6 @@
 FROM python:3.7.2-alpine
 
-MAINTAINER michael.barry@intlfcstone.com
+MAINTAINER mbarry@packetdriving.com
 
 RUN apk add git
 RUN mkdir oxidized-tooling
